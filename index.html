@@ -13,10 +13,11 @@
 
 </head>
 
-<body style="background: url('Assets/grey-abstract-tech-geometric-motion-background.png') no-repeat top fixed gray;">
+<!-- Added background image and set to a fixed position -->
+<body style="background: url('Assets/grey-abstract-tech-geometric-motion-background.png') no-repeat fixed">
 
    <!-- Navbar -->
-   <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+   <header class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
       <a class="navbar-brand" href="https://www.linkedin.com/in/justin-mcdonald-30519a84/">Justin McDonald</a>
 
       <!-- Toggle button for smaller screens -->
@@ -25,7 +26,7 @@
       </button>
 
       <!-- Collapsible navigation options including ID for toggle button to reference -->
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <nav class="collapse navbar-collapse justify-content-end" id="navbarNav">
          <ul class="navbar-nav nav-tabs">
             <li class="nav-item active">
                <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
@@ -37,35 +38,35 @@
                <a class="nav-link" href="contact.html">Contact</a>
             </li>            
          </ul>
-      </div>
-   </nav>
+      </nav>
+   </header>
 
    <!-- main content -->
-   <div class="container-xl my-5">
-      <div class="row mx-auto">
-         <div class="col-xl-5 mx-3 my-4">
-            <div class="card text-white bg-secondary">
-            <div class="card-body">
+   <main class="container-xl my-5">
+      <section class="row mx-auto">
+         <figure class="col-xl-5 mx-3 my-4">
+
+            <!-- Card within the main row/column -->
+            <figure class="card text-white bg-secondary">
+               <article class="card-body">
                   <h4 class="display-4">About Me</h4>
                   <hr>
                   <div class="card-text">
-                     <!-- <p> -->
-                        <img src="Assets/Headshot.jpg" class="float-left w-25 h-25 mr-3"  alt="Photo of the author">
-                        My name is Justin McDonald and I am a student learning to be a web developer! Currently, I work in technology for a local sales enablement company called Primary Intelligence as a Product Manager. As a Product Manager, I oversee the design and implementation of roughly 40% of our (very large) proprietary web app, TruVoice, which is a robust dashboard and analytics tool we built to support the service we provide to our clients. I decided to pursue learning web dev partly because I've always been interested in coding, partially because I feel it's the logical next step in my career path, and partially because I'm hoping to stay with my company and join the dev team to do the actual coding of our system, instead of just speccing the logic for it. But at the very least, the knowledge from this class will benefit my role as Product Manager too, having a deeper understanding of the underlying technologies that are used to implement the features I design.
-                     <!-- </p> -->
+                     <img src="Assets/Headshot.jpg" class="float-left w-25 h-25 mr-3"  alt="Photo of the author">
+                     My name is Justin McDonald and I am a student learning to be a web developer! Currently, I work in technology for a local sales enablement company called Primary Intelligence as a Product Manager. As a Product Manager, I oversee the design and implementation of roughly 40% of our (very large) proprietary web app, TruVoice, which is a robust dashboard and analytics tool we built to support the service we provide to our clients. I decided to pursue learning web dev partly because I've always been interested in coding, partially because I feel it's the logical next step in my career path, and partially because I'm hoping to stay with my company and join the dev team to do the actual coding of our system, instead of just speccing the logic for it. But at the very least, the knowledge from this class will benefit my role as Product Manager too, having a deeper understanding of the underlying technologies that are used to implement the features I design.
                   </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
+               </article>
+            </figure>
+         </figure>
+      </section>
+   </main>
 
    <!-- footer -->
-   <nav class="navbar fixed-bottom justify-content-center bg-info">
+   <footer class="navbar fixed-bottom justify-content-center bg-info">
       <span class="navbar-text-md text-center">
          &copy; Copyright Justin McDonald 2020
       </span>
-   </nav>
+   </footer>
 
    <!-- Optional JavaScript -->
    <!-- jQuery first, then Popper.js, then Bootstrap JS -->

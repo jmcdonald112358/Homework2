@@ -13,16 +13,17 @@
 
 </head>
 
+<!-- Added background image and set to a fixed position -->
 <body style="background: url('Assets/grey-abstract-tech-geometric-motion-background.png') no-repeat fixed">
 
    <!-- Navbar -->
-   <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+   <header class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
       <a class="navbar-brand" href="https://www.linkedin.com/in/justin-mcdonald-30519a84/">Justin McDonald</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <nav class="collapse navbar-collapse justify-content-end" id="navbarNav">
          <ul class="navbar-nav nav-tabs">
             <li class="nav-item">
                <a class="nav-link" href="index.html">About</a>
@@ -34,72 +35,79 @@
                <a class="nav-link" href="contact.html">Contact</a>
             </li>            
          </ul>
-      </div>
-   </nav>
+      </nav>
+   </header>
 
    <!-- main content -->
-   <div class="container-xl my-5">
-      <div class="row mx-auto">
-         <div class="col-xl-5 mx-3 my-4">
-            <div class="card text-white bg-secondary">
-               <div class="card-body">
+   <main class="container-xl my-5">
+      <section class="row mx-auto">
+         <figure class="col-xl-5 mx-3 my-4">
+
+            <!-- Card within the main row/column -->
+            <figure class="card text-white bg-secondary">
+               <article class="card-body">
                   <h4 class="display-4">Portfolio</h4>
                   <hr>
-                  <div class="card-deck">
-                     <div class="card bg-dark mb-3" style="width: 18rem;">
+
+                  <!-- Nested cards within the main card -->
+                  <!-- First row -->
+                  <section class="card-deck">
+                     <figure class="card bg-dark mb-3" style="width: 18rem;">
                         <img src="Assets/Moab_Arrival.jpg" class="card-img-top" alt="Img 1">
                         <div class="card-body">
                            <p class="card-text">My gorgeous fiance and I upon arriving in our favorite city and home away from home, Moab Utah, the day before getting engaged (which, of course, she did not know about at the time.) Soon, we will be returning for the wedding itself!
                            </p>
                         </div>
-                     </div>
-                     <div class="card bg-dark mb-3" style="width: 18rem;">
+                     </figure>
+                     <figure class="card bg-dark mb-3" style="width: 18rem;">
                         <img src="Assets/Proposal.jpeg" class="card-img-top" alt="Img 1">
                         <div class="card-body">
                           <p class="card-text">We love Moab, and we love hiking, so naturally, my proposal had to occur under Delicate Arch itself. It was a beautiful day, a spectacular hike, and the whole event worked out exactly as planned. 
                           </p>
                         </div>
-                      </div>
-                  </div>
+                     </figure>
+                  </section>
 
-                  <div class="card-deck">
-                     <div class="card bg-dark mb-3" style="width: 18rem;">
+                  <!-- Second row -->
+                  <section class="card-deck">
+                     <figure class="card bg-dark mb-3" style="width: 18rem;">
                         <img src="Assets/Ball_Is_Life.jpg" class="card-img-top" alt="Img 1">
                         <div class="card-body">
                            <p class="card-text">This is Walter. He's a bit of a derp, and bases his entire existence around his ball — or any toy, really, but mainly the ball. Ball is life for him. Derpy he may be, but we love him and all of his Border Collie craziness none the less.
                            </p>
                         </div>
-                     </div>
-                     <div class="card bg-dark mb-3" style="width: 18rem;">
+                     </figure>
+                     <figure class="card bg-dark mb-3" style="width: 18rem;">
                         <img src="Assets/First_Tattoo.jpg" class="card-img-top" alt="Img 1">
                         <div class="card-body">
                            <p class="card-text">This is my first (and, unfortunately, only (for now)) tattoo. Though often mistook for a football goalpost, it's a representation of a forked path, inspired by one of my favorite TV shows, Black Mirror. It's a daily reminder that every minute decision I encounter affects the next decision I'll encounter, and thus I should choose wisely.
                            </p>
                         </div>
-                     </div>
-                  </div>
+                     </figure>
+                  </section>
                   
-                  <div class="card-deck">
-                     <div class="card bg-dark mb-3" style="width: 18rem;">
+                  <!-- Third row -->
+                  <section class="card-deck">
+                     <figure class="card bg-dark mb-3" style="width: 18rem;">
                         <img src="Assets/Left_Fork.jpg" class="card-img-top" alt="Img 1">
                         <div class="card-body">
                            <p class="card-text">This was taken on a hike through Left Fork in Moab shortly after the proposal. We splashed around in a little watering hole in the river nicknamed the Cowboy Hot Tub (despite not at all being hot water, which isn't a bad thing), and on the way back, some clouds rolled in and started raining a bit, making the landscape absolutely pop with breathtaking contrasting colors. To date, it's the best picture I've ever taken.
                            </p>
                         </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>               
+                     </figure>
+                  </section>
+               </article>
+            </figure>
+         </figure>
+      </section>
+   </main>               
 
    <!-- footer -->
-   <nav class="navbar fixed-bottom justify-content-center bg-info">
+   <footer class="navbar fixed-bottom justify-content-center bg-info">
       <span class="navbar-text-md text-center">
          &copy; Copyright Justin McDonald 2020
       </span>
-   </nav>
+   </footer>
 
    <!-- Optional JavaScript -->
    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
