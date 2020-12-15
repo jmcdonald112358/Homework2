@@ -18,13 +18,13 @@ This website was built entirely using Bootstrap 4 components, including:
 7. Footer 
 
 For the content, I added a brief overview of what I do and why I decided to pursue this course in the About Me area. 
-![Screenshot of About Me page](./Assets/2020-12-14 23_23_35-About Me.png)
+![Screenshot of About Me page](/Assets/2020-12-14 23_23_35-About Me.png)
 
 For the portfolio itself, I added a handful of images that highlight a few of the most important aspects of my life and what makes me who I am. 
-![Screenshot of Portfolio page](./Assets/2020-12-14 23_24_13-Portfolio.png)
+![Screenshot of Portfolio page](/Assets/2020-12-14 23_24_13-Portfolio.png)
 
 Finally, I added a contact form for visitors to be able to submit inquiries to me, utilizing a confirmation dialog (modal) to confirm to the user that their inquiry had been received and would be responded to within a specific time frame. 
-![Image of Contact form with confirmation dialog](./Assets/2020-12-14 23_25_39-Contact.png)
+![Image of Contact form with confirmation dialog](/Assets/2020-12-14 23_25_39-Contact.png)
    - IMPORTANT NOTE: The submit button does not actually submit anything yet.
 
 ## Links
@@ -32,6 +32,6 @@ Finally, I added a contact form for visitors to be able to submit inquiries to m
 Project: https://jmcdonald112358.github.io/Responsive-Portfolio/ 
 Repository: https://github.com/jmcdonald112358/Responsive-Portfolio 
 
-### Additional Notes
+## Additional Notes
 
 - A '.gitignore' file is appearing in the repository. I am unsure why this is happening, as I included that filename within the file so that it _wouldn't_ be included. As such, the '.gitignore' file should be ignored until I can get some help on how to prevent it from being included in a push.
