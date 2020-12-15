@@ -29,8 +29,8 @@ Finally, I added a contact form for visitors to be able to submit inquiries to m
 
 ## Links
 
-Project: https://jmcdonald112358.github.io/Responsive-Portfolio/ 
-Repository: https://github.com/jmcdonald112358/Responsive-Portfolio 
+- Project: https://jmcdonald112358.github.io/Responsive-Portfolio/ 
+- Repository: https://github.com/jmcdonald112358/Responsive-Portfolio 
 
 ## Additional Notes
 
